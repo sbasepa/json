@@ -6,7 +6,7 @@
             "dependencies": [],
             "blockers": [],
             "use_flags": [],
-            "has_binary": false
+            "has_binary": true
         }
     ]
 }
