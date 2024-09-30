@@ -1,0 +1,12 @@
+{
+    "packages": [
+        {
+            "name": "depA",
+            "version": "1.5",
+            "dependencies": [],
+            "blockers": [],
+            "use_flags": [],
+            "has_binary": false
+        }
+    ]
+}
