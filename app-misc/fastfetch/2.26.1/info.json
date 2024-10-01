@@ -1,1 +1,11 @@
-
+{
+    "name": "fastfetch",
+    "version": "2.26.1",
+    "has_binary": false,
+    "use_flags": {
+        "required": [],
+        "optional": []
+    },
+    "dependencies": [],
+    "distfile_url": "http://distfiles.gentoo.org/distfiles/9b/fastfetch-2.26.1.tar.gz"
+}
