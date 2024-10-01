@@ -1,20 +1,35 @@
 {
-    "packages": [
+  "name": "pkgA",
+  "version": "1.0",
+  "has_binary": true,
+  "use_flags": {
+    "required": ["flag1", "flag2"],
+    "optional": ["flag3", "flag4"]
+  },
+  "dependencies": [
+    {
+      "name": "depA",
+      "version": "1.5",
+      "has_binary": false,
+      "use_flags": {
+        "required": ["flagX"],
+        "optional": []
+      },
+      "dependencies": [
         {
-            "name": "pkgA",
-            "version": "1.0",
-            "dependencies": ["depA-1.5"],
-            "blockers": [],
-            "use_flags": [],
-            "has_binary": true
-        },
-        {
-            "name": "depA",
-            "version": "1.5",
-            "dependencies": [],
-            "blockers": [],
-            "use_flags": [],
-            "has_binary": false
+          "name": "depC",
+          "version": "1.1",
+          "has_binary": true,
+          "use_flags": {
+            "required": [],
+            "optional": []
+          },
+          "dependencies": [],
+          "gentoo_link": "https://packages.gentoo.org/packages/depC"
         }
-    ]
+      ],
+      "gentoo_link": "https://packages.gentoo.org/packages/depA"
+    }
+  ],
+  "gentoo_link": "https://packages.gentoo.org/packages/pkgA"
 }
