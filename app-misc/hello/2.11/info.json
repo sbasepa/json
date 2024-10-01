@@ -1,23 +1,11 @@
 {
-  "name": "hello",
-  "version": "2.11",
-  "has_binary": true,
-  "use_flags": {
-    "required": [],
-    "optional": ["nls", "static"]
-  },
-  "dependencies": [
-    {
-      "name": "glibc",
-      "version": ">=2.34",
-      "has_binary": true,
-      "use_flags": {
+    "name": "hello",
+    "version": "2.11",
+    "has_binary": false,
+    "use_flags": {
         "required": [],
         "optional": []
-      },
-      "dependencies": [],
-      "gentoo_link": "https://packages.gentoo.org/packages/sys-libs/glibc"
-    }
-  ],
-  "gentoo_link": "https://packages.gentoo.org/packages/app-misc/hello"
+    },
+    "dependencies": [],
+    "gentoo_ebuild": "https://gitweb.gentoo.org/repo/gentoo.git/plain/app-misc/hello/hello-2.11.ebuild"  // Link to the ebuild
 }
