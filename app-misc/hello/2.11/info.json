@@ -7,5 +7,5 @@
         "optional": []
     },
     "dependencies": [],
-    "gentoo_ebuild": "https://gitweb.gentoo.org/repo/gentoo.git/plain/app-misc/hello/hello-2.11.ebuild"  
+    "distfile_url": "http://distfiles.gentoo.org/distfiles/9b/hello-2.11.tar.gz"
 }
